@@ -1,0 +1,170 @@
+#link {
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    color: #a1ffa1;
+    font-size: 1em;
+}
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: calc(0.5em + 1vh);
+}
+
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbtw3kNZxt9L1Tx72ONizqIhOhQgXrUuaRTEdPthm_S9ciXOc24g&s");
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+
+.big-hero img {
+    width: 150px;
+    border-radius: 150px;
+    margin-top: 0.5em;
+}
+
+.arriba {
+    background-color: transparent;
+}
+
+.big-hero h2 {
+    font-size: 1.875em;
+    font-weight: 700;
+    letter-spacing: 0.002em;
+    margin-bottom: 1em;
+    margin-top: 0.2em;
+    color: black;
+}
+
+.area a {
+    margin-top: -1em;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    color: #a1ffa1;
+    font-size: 1.5em;
+    width: 5em;
+}
+
+.area aside {
+    margin-top: -2em;
+    float: left;
+    margin-left: 1em;
+}
+
+.area aside dl {
+    margin-top: 3em;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    color: #a1ffa1;
+    font-size: 1.3em;
+    width: 5em;
+}
+
+.area {
+    background-color: #ED475F;
+    height: 30em;
+}
+
+.post {
+    padding: 1em;
+    margin-bottom: -2px;
+}
+
+.post h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin: 1em;
+}
+
+.post ul li article {
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #ffffff;
+    text-align: left;
+    width: 85em;
+    padding-bottom: 1em;
+    margin-left: 10em;
+    height: 24em;
+}
+
+.post article img {
+    width: 230px;
+    margin-right: 1em;
+    object-fit: cover;
+    margin-top: -2em;
+}
+
+.post article h3 {
+    color: #0D5061;
+    margin-top: 2em;
+    padding: 0em 1rem;
+    font-size: 0.9em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.post article p {
+    color: #112935;
+    font-size: 0.75em;
+    padding: 1rem;
+    line-height: 25px;
+    float: left;
+    margin-top: -0.5em;
+}
+
+.about {
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.about h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.125em;
+    margin: 2em;
+    color: black;
+}
+
+.bio-info img {
+    width: 40px;
+    border-radius: 20px;
+    margin-right: 1em;
+    margin-top: -1.8em;
+}
+
+footer {
+    margin-bottom: 0em;
+    background-color: transparent;
+    color: #D7DEE6;
+}
+
+.menu li {
+    display: block;
+    padding: 0.5em;
+    margin-top: 5px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-right: 59em;
+    background-color: transparent;
+}
+
+.menu li a:hover {
+    color: #6B0405;
+}
+
+.menu {
+    background-color: transparent;
+    margin-top: 1em;
+    display: flex;
+    width: 100%;
+    position: fixed;
+}
+
+.hide {
+    display: none;
+}

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <title>Una visión perversa</title>
+</head>
+
+<body>
+    <div class="arriba">
+        <div class="container">
+            <header class="header">
+                <nav>
+                    <ul class="show-desktop hide-mobile menu" id="menu">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#articulos">Articulos</a></li>
+                    </ul>
+
+                </nav>
+            </header>
+        </div>
+        <section class="big-hero">
+            <div class="container">
+                <img src="Imagenes/pp.jpeg">
+                <h2>Edith López Tobar</h2>
+
+            </div>
+
+            <section class="about ">
+                <div class="bio-info">
+                    <a href="https://www.facebook.com/edithlopez58" target="_blank"><img alt="Sigueme en Facebook"
+                            src="Imagenes/face.png" />
+                    </a>
+
+                    <a href="https://instagram.com/edithlopez_15/" target="_blank"><img alt="Sigueme en Instagram"
+                            src="Imagenes/instagram-png-instagram-png-logo-1455.png" />
+                    </a>
+
+
+                </div>
+                <a id="link" href="https://youtu.be/dWIFsNSQYOA">https://youtu.be/dWIFsNSQYOA </a>
+    </div>
+
+    </section>
+    </section>
+    </div>
+
+    <section class="area">
+        <aside>
+            <ul>
+                <dl><a class="dia" id="l">Lunes </a> </dl>
+                <dl><a class="dia" id="m">Martes </a> </dl>
+                <dl><a class="dia" id="mi">Miercoles</a> </dl>
+                <dl><a class="dia" id="j">Jueves</a> </dl>
+                <dl><a class="dia" id="v">Viernes</a> </dl>
+            </ul>
+        </aside>
+        <div class="container post">
+            <h2 id="articulos">ARTICULOS</h2>
+
+            <ul>
+                <li>
+                    <article class="notice l">
+                        <h3>LUNES. <u>*LA INTRODUCCIÓN*</u></h3>
+                        <p>Este día nos dieron la introducción al juego,en la cual proyectaron un video que describía la
+                            historia de Ale Rav ("identidad desconocida") estaba tratando de detruir la universidad,
+                            luego apareció Kurt quien trataba de destruir los planes de Ale Rav y para lograrlo nos dejó
+                            un código QR que teníamos que escanear, el cual contenía un link con diferentes ejercicios
+                            que debíamos resolver relacionados con Administración de bases de datos, al lograr
+                            resolverlos bien, el llamado Dei2 nos devolvería una serie de pistas para encontrar el
+                            próximo código QR y resolver el/los ejercicios descritos en dichos links a los
+                            que nos redigiría.
+                        </p>
+                        <p>
+                            <img src="Imagenes/Captura de pantalla de 2019-10-14 23-54-06.png" hspace="5" vspace="5"
+                                style="float: left;" />
+                            Para resolver el ejercicio propuesto era necesario programar una función que validara un DUI
+                            que se le pase como parámetro y que devuelva verdadero si es correcto o falso si no lo es.
+                            Para iniciar por medio de una función
+                            se debía realizar una validación de la longitud (10 caracteres), formato (todos dígitos
+                            numéricos con solo un guión en la 9 posición) y el
+                            dígito de comprobación debe ser correcto ingresados en la tabla y comprobar que fueran
+                            válidos, que tuviera el guión en la posición correcta, que no tuviera
+                            letras, entre otras características.Luego teníamos que realizar la comprobación de cuántos
+                            DUI estaban correctos en la tabla miembro, e ingresar el
+                            resultado (un solo dato) en la tabla duisvalidos. Si el número era correcto y se había
+                            desarrollado
+                            la función tal como era,aparecía la siguiente pista en la tabla tabla kurt_out.
+                        </p>
+
+                    </article>
+                </li>
+
+                <li>
+                    <article class="notice m hide">
+                        <h3>MARTES. <u> *POLIDEPORTIVO*</u></h3>
+                        <p>El resultado obtenido al realizar correctamente el primer ejercicio en el que había que
+                            verificar si los DUI's de las tablas estaban correctos o no, al ejecutarlo, este brindaba
+                            otra pista más
+                            mencionándo que podría haber algo en el polideportivo. Y
+                            efectivamente encontramos otro código QR a un lado de las mesas que están enfrente de la
+                            mesa de ping pong, al escanearla, resultó que era un texto escrito por Ada Jarvis en el cual
+                            explicaba que había cierta
+                            relación entre los miembros y el departamento en el que trabajan, y otra en sentido
+                            contrario para aquellos miembros que son representantes del departamento,y por lo tanto que
+                            sería ilógico que
+                            una persona representante de un departamento trabaje para otro departamento, por lo cual
+                            tendríamos que realizar un procedimiento con el cual verificar esto. </p>
+                        <p>
+                            <img src="Imagenes/72437704_1752982541512671_3176207265480835072_n.jpg" hspace="5"
+                                vspace="5" style="float: left;" />
+                            Para resolver este ejercicio era necesario crear una función ue debía rechazar la inserción
+                            o
+                            actualización de un departamento con un representante que no trabaje para dicho
+                            departamento, por otro lado, si hubiera una actualización del departamento en el que un
+                            miembro trabaja, ésta debía rechazarse si resultara que el miembro es el representante del
+                            mismo. Para resolver esto teníamos que crear dos triggers, uno para cada caso y facilitar
+                            es, y usar la misma función para ambos. Al finalizar y validar con las pruebas brindadas se
+                            obtendría la siguiente pista, la cual nos llevaba al atrio bajo el edificio de las D.
+
+                        </p>
+                    </article>
+                </li>
+                <li>
+
+                    <article class="notice mi hide">
+                        <h3>MIERCOLES. <u>*ATRIO BAJO EL EDIFICIO D*</u></h3>
+                        <p>
+                            Al llegar al atrio de las D nos encontramos con un mural, teníamos que acercarnos al pintor,
+                            ayudarle a pintar, y cuando ya tuvieramos la suficiente confianza preguntarle si conocía a
+                            Ale Rav, y así él accedería a mostranos el próximo código QR.
+                            Al escanear dicho código se describía otro problema, mencionando que existía un potencial
+                            problema de
+                            incoherencia entre la clasificación de miembro en sus subclases y el atributo
+                            denominacion_departamento, por ejemplo, sería incorrecto que un miembro de la subclase
+                            ingenieria tuviera en el atributo mencionado en la superclase "ventas".
+                        </p>
+                        <p>
+                            <img src="Imagenes/72295323_547405986085977_3545360439011442688_n.jpg" hspace="5" vspace="5"
+                                style="float: left;" />
+                            Para resolver dicho problema teníamos que crear una función y un trigger que ejecute dicha
+                            función, y que logre hacer lo siguiente:Cuando se inserte en la tabla miembro debe
+                            comprobarse la coincidencia del departamento
+                            expresado en el atributo con la existencia de este miembro en la subclase correcta. Si no
+                            está, se debe rechazar la inserción. Cuando se actualice el atributo departamento de
+                            miembro, entonces debe moverse al miembro
+                            a la subclase que corresponda. Esto implica borrar el miembro de la subclase y reinsertarlo
+                            donde corresponde. Y hay que tener en cuenta que: ya existe un trigger que al borrar de una
+                            subclase
+                            (ingenieria, ventas o gestion) borra
+                            automáticamente de la superclase miembro, y que hay otro trigger que impide que se inserte
+                            directo
+                            en la superclase para validar la
+                            totalidad de esa especialización así como que se respete que la especialización es disjunta,
+                            y que
+                            esto implica que dentro de la función que estábamos haciendo, cuando
+                            quieras insertar en una subclase teníamos que hacer una transacción con el correspondiente
+                            FK
+                            diferido.
+                            Al finalizar la función teníamos un nuevo código para ejecutar el cual, según Kurt apagaría
+                            la bomba.
+                        </p>
+                    </article>
+                </li>
+
+                <li>
+                    <article class="notice j hide">
+                        <h3>JUEVES <u>*TERRAZAS*</u></h3>
+                        <p>
+                            Luego de la nota de voz que decía que teníamos que dirigirnos a las terrazas, por medio de
+                            un dron obtendríamos el próximo código para resolver otro problema.Kurt mencionaba un último
+                            desafío para verificar que no nos habíamos pasado al lado de Ale Rav. Este desafío consistía
+                            en utilizar los triggers para controlar una especialización disjunta total que ya habíamos
+                            hecho, la que sucede
+                            entre miembro y sus subclases y la especialización de proyectos, que es disjunta parcial.
+
+                            Lo que teníamos que verificar es que
+                            como es disjunta hay que asegurar la independencia de los miembros de subclases de
+                            proyectos, y la eliminación en la superclase tras el borrado en la subclase.
+                            Como la especialización no es total, en este caso podía tener objetos solamente en la
+                            superclase, éstos debían tener código de tipo 'O' o se debía rechazar la
+                            inserción, también se debía validar con los otros códigos que los objetos deben estar
+                            previamente en las subclases correspondientes, o se tenía que rechazar la operación.
+                        </p>
+                        <p>
+                            <img src="Imagenes/73095677_671559003351281_6080271281234640896_n.jpg" hspace="5" vspace="5"
+                                style="float: left;" />
+                            Para resolverlo teníamos que crear una función que cuando elimine a algún elemento de las
+                            subclases esta lo eliminen automáticamente de la superclase, una función que dado que la
+                            especialización es disjunta, garantice que no
+                            pueda existir el mismo objeto en más de una subclase, y otra función para comprobar que los
+                            proyectos están siendo introducidos en la subclase correcta. Era importante notar que aunque
+                            la especialización es parcial, si los proyectos son de tipo Web, Venta_almacen o ERP,
+                            debían
+                            ser a la vez introducidos en la subclase correspondiente y en proyecto, como si fuera total.
+                            Para ello debíamos tomar en cuenta que los respectivos FK de las subclases a la superclase
+                            son
+                            diferibles.
+                        </p>
+                    </article>
+                </li>
+                <li>
+                    <article class="notice v hide">
+                        <h3>VIERNES</h3>
+                        <p>Tras resolver el último desafío, había un mensaje en el cual se nos convocaba el día viernes
+                            en la magna IV a las 5 pm, se
+                            nos reveló la identidad de Kurt que desafortunadamente no logró salir con vida en medio de
+                            su discurso comenzó a toser, y se cayó dramáticamente dando un gran golpe contra el suelo, y
+                            efectivamente nos dimos cuenta de que había muerto, y descubrimos en el folder que andaba en
+                            la mano cargaba con otro código QR el cual rápidamente escaneamos.</p>
+
+                        <p>
+                            <img src="Imagenes/72487056_2505179796435355_7241065714298126336_n.jpg" hspace="5"
+                                vspace="5" style="float: left;" />
+                            <img src="Imagenes/72192878_526430678170188_5144654931164135424_n.jpg" hspace="5" vspace="5"
+                                style="float: left;" />
+                            Al ingresar al link que habíamos escaneado con el código QR este contenía un vídeo en el
+                            cual se nos reveló la identidad
+                            de Ale Rav, el cual resultó ser Varela(Quién lo diría), y se dió finalización
+                            al juego.
+                        </p>
+                    </article>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright 2019 Edith Lopez. All Rights Reserved</p>
+
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
